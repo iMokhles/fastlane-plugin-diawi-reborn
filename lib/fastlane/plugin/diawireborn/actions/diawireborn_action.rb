@@ -7,7 +7,7 @@ module Fastlane
             UPLOADED_FILE_LINK_TO_DIAWI = :UPLOADED_FILE_LINK_TO_DIAWI
         end
 
-        class DiawiAction < Action
+        class DiawirebornAction < Action
 
             UPLOAD_URL = "https://upload.diawi.com/"
             STATUS_CHECK_URL = "https://upload.diawi.com/status"
@@ -204,7 +204,7 @@ module Fastlane
             end
 
             def self.authors
-                ["pacification"]
+                ["imokhles"]
             end
 
             def self.details

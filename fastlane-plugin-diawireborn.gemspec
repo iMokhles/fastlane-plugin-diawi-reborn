@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/diawi/version'
+require 'fastlane/plugin/diawireborn/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-diawi'
-  spec.version       = Fastlane::Diawi::VERSION
+  spec.name          = 'fastlane-plugin-diawireborn'
+  spec.version       = Fastlane::Diawireborn::VERSION
   spec.author        = %q{iMokhles}
   spec.email         = %q{mokhlashussein@aol.com}
 

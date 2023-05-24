@@ -1,8 +1,8 @@
 module Fastlane
   module Helper
-    class DiawiHelper
+    class DiawirebornHelper
       # class methods that you define here become available in your action
-      # as `Helper::DiawiHelper.your_method`
+      # as `Helper::DiawirebornHelper.your_method`
       #
       def self.show_message
         UI.message("Hello from the diawi plugin helper!")

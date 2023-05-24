@@ -4,10 +4,10 @@
 
 ## Getting Started
 
-This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-diawi`, add it to your project by running:
+This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-diawireborn`, add it to your project by running:
 
 ```bash
-fastlane add_plugin diawi
+fastlane add_plugin diawireborn
 ```
 
 ## About diawi
@@ -41,7 +41,7 @@ If file upload successfully, you can access result link by:
 
 Minimal plugin configuration is:  
 ```ruby
-diawi(
+diawireborn(
     token: "your_api_token"
 )
 ```
